@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.container-80{
+	width:80%;
+	margin:0 auto;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.circle-img{
+	border-radius:50%;
+}
+.header{
+	background-image:url(img/header.JPG);
+	background-attachment:fixed;
+	background-position:center;
+	color:#fff;
+	/*height:200px;*/
+}
+.header .container-80{
+padding:6em 0em;
+}
+
+.azul-reticula{
+background:#b8d5ff;
+}
+.rosa-reticula{
+background:#f4c9a7;
+}
+.verde-reticula{
+background:#83a218;
+}
+.amarillo-reticula{
+	background:#ffff87;
+}
