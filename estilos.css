@@ -15,8 +15,12 @@
 	background-image:url(img/header.JPG);
 	background-attachment:fixed;
 	background-position:center;
-	height:200px;
+	/*height:200px;*/
 }
+.header .container-80{
+padding:6em 0em;
+}
+
 .azul-reticula{
 background:#b8d5ff;
 }
