@@ -4,6 +4,11 @@
 <head>
 <title>Documento sin t&iacute;tulo</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="animate.css" rel="stylesheet" type="text/css">
+<script src="./wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 <style type="text/css">
 <!--
 *{
@@ -35,6 +40,10 @@ a:active {
 }
 .Estilo2 {font-size: 18px}
 .Estilo4 {color: #FFFFFF}
+table#down tr td{
+padding:20px;
+border-bottom:1px solid black;
+}
 -->
 </style>
 </head>
@@ -42,12 +51,12 @@ a:active {
 <body>
 <div class="header">
   <div class="container-80">
-    <h1 class="Estilo1">Software</h1>
+    <h1 class="Estilo1 wow slideInLeft">Software</h1>
   </div>
 </div>
 <div align="center"></div>
 <div align="center">
-  <table width="80%"  border="0" align="center" cellspacing="30" bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+  <table class="wow slideInUp" width="80%"  border="0" align="center" cellspacing="30" bordercolor="#FFFFFF" bgcolor="#FFFFFF">
     <tr>
       <td width="72%" height="353"><div align="justify"><span class="Estilo2">El software a lo largo del transcurso de la preparaci&oacute;n T&eacute;cnico en Programaci&oacute;n, forma una parte fundamental del aprendizaje, el manejo y el conocimiento de distintos entornos de desarollo junto con las competencias g&eacute;nericas empleadas en la educaci&oacute;n media superior, permite al estudiante un enrome crecimiento en el &aacute;rea profesional.</span></div></td>
       <td width="28%"><p><img src="img/galeria-19.jpg" width="392" height="314"></p>    </td>
@@ -65,7 +74,7 @@ a:active {
     </blockquote>
   </blockquote>
 </blockquote>
-<div class="container">
+<div class="container wow slideInDown">
 <table width="100%"  border="0" cellspacing="15" bgcolor="#F0F0F0" id="submenu">
   <tr>
     <td height="20" class="azul-reticula"><div align="center"><a href="#dfd">DFD</a></div></td>
@@ -88,29 +97,29 @@ a:active {
 </div>
 
 <div class="container-80">
-	<table width="100%"  border="0" cellspacing="30">
-	  <tr id="dfd">
+	<table width="100%"  border="0" cellpadding="10" cellspacing="30" id="down">
+	  <tr class="wow slideInLeft" id="dfd">
 		<td width="50%"><div align="center"><img src="img/software/dfd-17.jpg" alt="DFD, Software para diagramas de flujo." width="374" height="201"></div></td>
 		<td width="50%" valign="top"><p><strong>DFD</strong></p>
 		<p>Por sus siglas Diagrama de Flujo de Datos se utiliza para la representaci&oacute;n gr&aacute;fica del flujo de datos a trav&eacute;s de un sistema de informaci&oacute;n. </p>
 		<p align="right"><a href="http://www.descargarsoft.com/descargar-dfd-para-crear-diagramas-de-flujo/" target="_blank">Descargar</a></p>
 		<p align="right"><a href="#submenu">Regresar al menú</a></p></td>
 	  </tr>
-	  <tr id="devc++">
+	  <tr class="wow slideInRight" id="devc++">
 		<td><div align="center"><img src="img/software/dev-c++.png" alt="DevC++" width="385" height="277"></div></td>
 		<td valign="top"><p><strong>Dev-C++</strong></p>
 		  <p>Es un entorno de desarrollo integrado (IDE) para programar en lenguaje C / C++ . </p>
 		  <p align="right"><a href="https://sourceforge.net/projects/orwelldevcpp/files/Setup%20Releases/Dev-Cpp%205.11%20TDM-GCC%204.9.2%20Setup.exe/download" target="_blank">Descargar</a></p>
 		  <p align="right"><a href="#submenu">Regresar al men&uacute;</a></p></td>
 	  </tr>
-	  <tr id="vs">
+	  <tr class="wow slideInLeft" id="vs">
 		<td><div align="center"><img src="img/software/visual-studio.png" alt="Visual Studio" width="410" height="183"></div></td>
 		<td valign="top"><p><strong>Visual Studio</strong></p>
 		<p>Es un entorno de desarrollo integrado permite a los desarrolladores crear sitios y aplicaciones web, as&iacute; como servicios web en cualquier entorno que soporte la plataforma .NET </p>
 		<p align="right"><a href="https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx" target="_blank">Descarga</a><a href="#">r</a></p>
 		<p align="right"><a href="#submenu">Regresar al men&uacute;</a></p></td>
 	  </tr>
-	  <tr id="android-studio">
+	  <tr class="wow slideInRight" id="android-studio">
 		<td><div align="center"><img src="img/software/as.png" alt="Android Studio" width="374" height="194"></div></td>
 		<td valign="top"><p class="Estilo1">Android Studio</p>
 	      <p>Es un entorno de desarrollo integrado que permite el desarrollo de aplicaciones m&oacute;viles nativas para plataformas Android.
@@ -118,7 +127,7 @@ a:active {
           <p align="right"><a href="https://developer.android.com/studio/install.html?hl=es" target="_blank">Descarga</a><a href="#">r</a></p>
         <p align="right"><a href="#submenu">Regresar al men&uacute;</a></p>          <p>&nbsp;       </p>          <p>&nbsp;</p></td>
 	  </tr>
-	  <tr id="dreamweaver">
+	  <tr class="wow slideInLeft" id="dreamweaver">
 		<td><div align="center"><img src="img/software/dreamweaver.jpg" alt="Dreamweaver" width="500" height="281"></div></td>
 		<td valign="top"><p><strong>Dreamweaver</strong></p>
 		  <p> <strong>Adobe Dreamweaver </strong>es una aplicaci&oacute;n en programa de estudio que est&aacute; destinada a la construcci&oacute;n, dise&ntilde;o y edici&oacute;n de sitios, v&iacute;deos y aplicaciones Web basados en est&aacute;ndares. </p>
@@ -126,7 +135,7 @@ a:active {
 		  <p align="right"><a href="#submenu">Regresar al men&uacute;</a></p>		  <p>&nbsp;</p>
 	    <p>&nbsp;</p></td>
 	  </tr>
-	</table>
+  </table>
 </div>
 <blockquote>
   <blockquote>

@@ -4,25 +4,55 @@
 <head>
 <title>Dudas y sugerencias</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="animate.css" rel="stylesheet" type="text/css">
+<script src="./wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 <style type="text/css">
 <!--
+*{
+margin:0;
+padding:0;
+}
 body,td,th {
 	font-family: Arial, Helvetica, sans-serif;
 }
-.Estilo1 {font-size: 18px}
+.Estilo1 {font-weight: bold}
+
+input, textarea{
+width:300px;
+border-radius:3px;
+margin:10px 0;
+
+}
+input{
+height:20px;
+}
+textarea{
+height:70px;
+}
 -->
 </style>
+<link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
- <p align="center" class="Estilo1"> ¿Tienes alguna duda de la carrera T&eacute;cnico en Programaci&oacute;n?</p>
- <p align="center" class="Estilo1"> ¡Haznos saber!</p>
- <p align="center" class="Estilo1"> Tus comentarios, ideas, sugerencias <br>
+<div class="header">
+  <div class="container-80">
+    <h1 class="Estilo1">Ferias de Proyectos</h1>
+  </div>
+</div>
+ <p align="center">&nbsp; </p>
+ <p align="center">¿Tienes alguna duda de la carrera T&eacute;cnico en Programaci&oacute;n?</p>
+ <p align="center"> ¡Haznos saber!</p>
+ <p align="center"> Tus comentarios, ideas, sugerencias <br>
 y puntos de vista son muy valiosos <br>
 para nosotros, porque tu perspectiva <br>
 completa y mejora la de nuestra instituci&oacute;n. </p>
+ <p align="center">&nbsp;</p>
  <p align="center" class="Estilo1">&nbsp;</p>
- <form name="form1" method="post" action="">
+ <form name="form1" method="post" class="wow slideInUp" action="">
    <p align="center">Primer nombre: 
      <input name="textfield" type="text" maxlength="15">
    </p>
@@ -46,5 +76,6 @@ completa y mejora la de nuestra instituci&oacute;n. </p>
  <p>&nbsp;</p>
  <p>&nbsp;</p>
  <p>&nbsp;</p>
+   <iframe src="./footer.htm" scrolling="no" frameborder="0" height="200"  width="100%" ></iframe>
 </body>
 </html>
